@@ -1,0 +1,59 @@
+/* Stili di base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stile per le pubblicità */
+.ads {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.ad {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.ad img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Bottone per il sondaggio */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Media Query per dispositivi mobili */
+@media (max-width: 768px) {
+    .ads {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .ad {
+        margin: 10px 0;
+    }
+}
